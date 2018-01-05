@@ -1,4 +1,80 @@
+@import "variables.scss";
+
 body {
-  background: #f8f8f8;
+  font-family: "Avenir Next";
+  background: $background;
   margin: 0;
+
+}
+
+//For the main page
+.main{
+  flex: 0 1 auto;
+overflow: hidden;
+margin: 0px;
+padding: 0;
+}
+
+.flexie{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -ms-flex-direction: column;
+  -webkit-flex-direction: column;
+}
+
+//For the account page
+.Userprofile{
+  -webkit-box-flex: 0;
+flex: 0 1 auto;
+-ms-flex: 0 1 auto;
+-webkit-flex: 0 1 auto;
+width: 1180px;
+margin: 0px;
+padding: 25px 0;
+}
+.userheader {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.jdmxYg{
+display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    background-color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #DAE1E9;
+    padding: 25px 25px 15px 25px;
+  }
+
+.lixsPe {
+  display: -webkit-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+flex-direction: column;
+-webkit-box-direction: normal;
+-webkit-box-orient: vertical;
+-ms-flex-direction: column;
+-webkit-flex-direction: column;
 }

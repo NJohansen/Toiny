@@ -4,7 +4,7 @@ import Layout from 'components/Layout'
 
 export default () => (
   <Layout>
-    <h1>Index</h1>
-    <Link to='/other'>Other</Link>
+    <h1>Dashboard</h1>
+    <p>Lorem ipsum</p>
   </Layout>
 )
